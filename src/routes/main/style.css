@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap:1em;
+}
+
+.item .text{
+    background-color: white;
+    border-radius: 0.2em;
+    padding: 0.5em; 
+    width: 100%;
+}
+.item .del {
+    background-color: #ff0000;
+    padding: 0.5em 0.7em;
+    border-radius: 0.2em;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    height: 2em;
+  }
